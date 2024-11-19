@@ -3,10 +3,10 @@ import random
 import time
 
 # 버튼, LED, 부저를 위한 GPIO 핀 번호 설정
-BUTTONS = {"button1": 21, "button2": 26, "button3": 20, "button4": 19}
-GREEN_LED = 16
-RED_LED = 13
-BUZZER = 17
+BUTTONS = {"button1": 25, "button2": 5, "button3": 12, "button4": 20}
+GREEN_LED = 24
+RED_LED = 18
+BUZZER = 14
 
 # 그리드 및 게임 설정 변수
 GRID_WIDTH = 20
